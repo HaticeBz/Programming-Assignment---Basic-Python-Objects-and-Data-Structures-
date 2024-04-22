@@ -36,7 +36,11 @@ print("Name : {}\nSurname : {}\nPhone number : {}".format(together[2],together[0
 firstNumber = int(input("Enter first number :"))
 secondNumber = int(input("Enter second number :"))
 
-print("First number is : {}\nSecond number is : {}".format(secondNumber,firstNumber))
+print("Values before modification\nFirst number is : {}\nSecond number is : {}".format(firstNumber,secondNumber))
+
+firstNumber, secondNumber = secondNumber, firstNumber
+
+print("Values after modification\nFirst number is : {}\nSecond number is : {}".format(firstNumber,secondNumber))
 
 
 #Finding the hypotenuse of a right triangle
