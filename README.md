@@ -8,9 +8,9 @@ print("Multiplication of numbers : {}".format(firstNumber * secondNumber * third
 
 #Body Mass Index
 height = int(input("Enter your height :"))
-kg = int(input("Enter your kg :"))
+weight = int(input("Enter your weight :"))
 
-bodyMassIndex = kg/(height*height)
+bodyMassIndex = weight/(height*height)
 
 print("Your body mass index is :",(bodyMassIndex))
 
